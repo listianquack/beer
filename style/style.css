@@ -13,40 +13,41 @@
   font-size: 50px;
 }
 
-.sm a{
-  color: black;
-  display: flex;
-  padding: 0 20px;
-  text-decoration: none;
-}
+	.sm a {
+		color: black;
+		display: flex;
+		padding: 0 20px;
+		text-decoration: none;
+	}
 .sm li{
   position: relative;
 }
 
-.sm li+li::after{
-  content: '';
-  position: absolute;
-  height: 50%;
-  width: 1px;
-  left: 0;
-  top: 25%;
-  background-color: black;
-}
+	.sm li + li::after {
+		content: '';
+		position: absolute;
+		height: 50%;
+		width: 1px;
+		left: 0;
+		top: 25%;
+		background-color: black;
+	}
 
-nav{
+nav {
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
 	height: 104px;
-	background-color: whitesmoke;
+	background-color: #d4b8b8;
 	align-items: center;
 	width: 100%;
+	border-radius: 10px;
 }
 
-.header_text a{
-	margin: 0 135px;
-	width: 30%;
-        color: black;
+.header_text a {
+	margin: 0 75px;
+	width: 25%;
+	color: #7f6767;
 }
 
 .header_text a:hover{
@@ -68,7 +69,7 @@ nav{
 	justify-content: space-between;
 }
 
-.menu{
+.menu {
 	font-family: Roboto;
 	font-style: normal;
 	/*font-weight: bold;*/
@@ -105,22 +106,23 @@ main #photo{
 
 
 main #photo img{
-	margin-top: 110px;
+	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
-main .text {
-	margin-top: 268px;
-	color: white;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 50px;
-	line-height: 117px;
-}
+	main .text {
+		margin-top: 268px;
+		color: white;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 117px;
+	}
 
 .line_name{
-	border: 7px solid green;
-	width: 40%;
+	border: 7px solid hotpink;
+	width: 60%;
 }
 
 .quote{
@@ -133,7 +135,7 @@ main .text {
 }
 
 
-.story{
+.story {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -155,14 +157,14 @@ section #landscape{
 	margin: 50px;
 }
 
-section .story{
-	margin: 50px;
-        color: white;
-}
+	section .story {
+		margin: 50px;
+		color: white;
+	}
 
-.top{
+.top {
 	height: 272px;
-	background-color: white;
+	background-color: #d4b8b8;
 	display: flex;
 	align-items: center;
 }
@@ -176,7 +178,7 @@ section .story{
 	margin-left: 140px;
 }
 
-.it{
+.it {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -184,11 +186,11 @@ section .story{
 	line-height: 23px;
 	padding: 50px 120px 50px 120px;
 	background-color: black;
-        color:white;
+	color: white;
 }
 
-.plans{
-    color:white;
+.plans {
+	color: white;
 }
 
 .technologies{
@@ -196,7 +198,7 @@ section .story{
 	margin-bottom: 0;
 }
 
-#GITHUB{
+#GITHUB {
 	background-color: white;
 }
 
@@ -240,12 +242,12 @@ section .story{
 	transform: scale(1.3);
 }
 
-.grid{
-  background-color: black;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  padding: 15px;
-  grid-auto-rows: 400px;
+.grid {
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	padding: 15px;
+	grid-auto-rows: 400px;
 }
 
 .grid div{
@@ -356,5 +358,11 @@ section .story{
         }
     
  }
- 
- 
+
+html {
+	scroll-behavior: smooth;
+}
+
+.hiss {
+	color: #7f6767
+}
