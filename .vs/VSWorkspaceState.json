@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\head_first",
-    "\\head_first\\chapter3",
-    "\\head_first\\chapter3\\journal",
-    "\\head_first\\chapter3\\journal\\images",
-    "\\head_first\\starbuzz",
-    "\\project",
-    "\\project\\image",
-    "\\project\\style"
+    "\\style"
   ],
   "PreviewInSolutionExplorer": false
 }
